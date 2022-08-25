@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <title>삼성물산</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../images/common/favicon.ico" type="image/x-icon" />
+    <!-- reset css -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <!-- web font -->
+    <link rel="stylesheet" href="../css/SpoqaHanSansNeo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- link css -->
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/contents.css" />
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/aos.css" />
+    <!-- link js -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/greensock/gsap.min.js"></script>
+    <!-- <script src="../js/three.js"></script> -->
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="mainHeader">
+          <h1 id="logo"><img src="../images/common/logo.svg" alt="삼성물산" /></h1>
+          <nav id="gnb">
+            <h2 class="blind">gnb</h2>
+            <ul class="list">
+              <li>
+                <a href="#" class="depth01"><span>삼성물산소개</span></a>
+                <? include("../include/lnb01.html") ?>
+              </li>
+              <li>
+                <a href="#" class="depth01"><span>사업분야</span></a>
+                <? include("../include/lnb02.html") ?>
+              </li>
+              <li>
+                <a href="#" class="depth01"><span>ESG</span></a>
+                <? include("../include/lnb03.html") ?>
+              </li>
+              <li>
+                <a href="#" class="depth01"><span>IR</span></a>
+                <? include("../include/lnb04.html") ?>
+              </li>
+              <li>
+                <a href="#" class="depth01"><span>뉴스룸</span></a>
+              </li>
+            </ul>
+          </nav>
+          <div class="utilMenu">
+            <ul class="list">
+              <li><a href="#">Contact US</a></li>
+              <li><a href="#" class="lang">KOR</a>
+                <ul class="depth02">
+                  <li><a href="#">KOREAN</a></li>
+                  <li><a href="#">ENGLISH</a></li>
+                </ul>
+              </li>
+              <li>
+                <div class="searchWrap">
+                  <button class="search"></button>
+                  <div class="searchBox">
+                    <form class="searchContents">
+                      <input type="text" placeholder="검색어를 입력하세요.">
+                      <p>필요하신 검색어를 찾아보세요.</p>
+                      <ul class="list">
+                        <li><a href="#" class="depth01">IR</a></li>
+                        <li><a href="#" class="depth01">CSR</a></li>
+                        <li><a href="#" class="depth01">주주정보</a></li>
+                        <li><a href="#" class="depth01">기업지배구조</a></li>
+                        <li><a href="#" class="depth01">ESG</a></li>
+                        <li><a href="#" class="depth01">건설부문</a></li>
+                      </ul>
+                    </form>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="subHeader">
+          <ul class="list">
+            <li><a href="#">건설부문</a></li>
+            <li><a href="#">상사부문</a></li>
+            <li><a href="#">패션부문</a></li>
+            <li><a href="#">리조트부문</a></li>
+          </ul>
+          <button class="infoBtn">Key Info</button>
+        </div>
+      </div>
+    </header>
